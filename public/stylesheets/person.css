@@ -1,0 +1,141 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: "Montserrat", "Helvetica Neue", sans-serif;*/
+	overflow-x: hidden;
+	font-family: 'Noto Sans', Georgia, serif;
+}
+body::-webkit-scrollbar{
+  	width:8px;
+}
+body::-webkit-scrollbar-thumb {
+	background: #333;
+}
+
+.b1{
+	text-align:center;
+	padding: 5%;
+	letter-spacing: 0px;
+	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+.b1 a{
+	color:black;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+.c1{
+	padding:0px 10px 10px 10px;
+}
+.c1 a{
+	text-decoration: none;
+	color: #111;
+	font-size: 35px;
+	padding: 5px; 
+}
+.c1 .col-md-4 h6{
+	font-size: 1rem; 
+	letter-spacing: 1px;
+	margin-left: 10px;
+}
+.c1 .col-md-8 img{
+	width:15%;
+}
+
+.caption-full.main{
+	padding: 3% 2.5%;
+}
+.caption-full.main h6{
+	line-height: 25px;
+}
+
+.t1 h4{
+	margin-bottom: 30px;
+}
+.t1 h2{
+	font-weight:600;
+	letter-spacing: 1px;
+	margin-top: 4%;
+}
+.t1 .thumbnail{
+	padding: 0px;
+}
+.t1 img{
+	width:100%;
+	margin-bottom: 2%;
+}
+.t1 img:hover{
+}
+
+.t1 .caption-full{
+	margin-top: 3%;
+}
+.t1 .caption-full h4 span{
+	font-size: 15px;
+	text-transform: lowercase;
+	color: #55f;
+	float:right;
+	cursor: pointer;
+	/*margin-top: 1%;*/
+}
+
+
+.t4{
+	padding:0% 1.2%;
+	/*margin-top:4%;*/
+}
+#inputform{
+	box-shadow: none;
+	outline:none;
+}
+#inputform:hover{
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+.t4 input{
+	border-radius: 0rem;
+}
+.t4 .inform1 .btn{
+	width:30%;
+	margin-top: 3%;
+	border-radius: 0rem;
+	border: 0.5px solid grey;
+}
+.t4 .inform2{
+	margin-left: 3%;
+}
+.t4 .incomment{
+	float: right;
+}
+.lastbox .col-md-7{
+	padding:5% 1%; 
+}
+
+@media (max-width: 992px) {
+	.b1 h1{
+		font-size: 7.5vw;
+	}
+	.c1{
+		margin-bottom: 50px;
+	}
+	.c1 .col-md-8{
+		margin-top: 50px;
+	}
+	.c1 .col-md-8 img{
+		width:40%;
+	}
+	.t4 .inform2{
+		margin-top: 50px;
+	}
+	.t4 .inform2 .col-md-12{
+		padding: 0px;
+	}
+	.t4 .col-md-6{
+		padding: 0px;
+		margin: 0px;
+	}
+	.lastbox .col-md-7{
+		padding:5%; 
+	}
+}
